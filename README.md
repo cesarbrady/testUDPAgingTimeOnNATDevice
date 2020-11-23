@@ -78,7 +78,7 @@ root@server:~# ./kcp --side s --addr 0.0.0.0 --port 12345 --step 1
 the program runs in client mode that looks like this
 
 ```bash
-root@xserver:~# ./run --side c --addr j.googleapies.com --port 12345   
+root@xserver:~# ./run --side c --addr 8.8.8.8 --port 12345   
 11-23 00:44:49   1 [TRAC] connect j.googleapies.com on 12345   
 11-23 00:44:49   1 [TRAC] connect success  
 11-23 00:44:49   1 [TRAC] send ping done  
